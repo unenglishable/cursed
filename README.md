@@ -19,6 +19,14 @@ cursor.up(3);
 
 ##Methods
 
+###position(col, row)
+
+Move cursor to position `col`, `row`.
+
+###move(cols, rows)
+
+Move the cursor down `cols` and right `rows`.
+
 ###up([number])
 
 Move the cursor up `number` lines.
