@@ -43,6 +43,9 @@ module.exports = {
       process.stdout.moveCursor(-1,0);
     }
   },
+  move: function(cols, rows) {
+      process.stdout.moveCursor(cols,rows);
+  },
   position: function(row, col) {
       process.stdout.cursorTo(row,col);
   }
